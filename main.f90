@@ -12,6 +12,12 @@ use properties      !CPU variables
 use parameters      !CPU parameters (constants)
 use gpu_properties  !GPU variables
 
+! start github source code management test 20251015
+!
+! hogehoge
+!
+! end 
+
 Implicit none
 
   Integer :: i,j,k,maxiter,max_i
@@ -39,8 +45,6 @@ Implicit none
 
   call output()
   conv=1d-12
-
-  !hogehoge !git test 20251015
 
   max_i=kwrite*iter
 
