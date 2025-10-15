@@ -40,7 +40,7 @@ Implicit none
   call output()
   conv=1d-12
 
-  !hogehoge
+  !hogehoge !git test 20251015
 
   max_i=kwrite*iter
 
